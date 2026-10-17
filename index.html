@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+<body>
+    <h1>Practice</h1>
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+</table>
+
+<table border="1">
+    <tr>
+        <th colspan="2">student Informations</th>
+    </tr>
+    <tr>
+        <td>Name</td>   
+        <td>Age</td>
+    </tr>
+</table>
+
+<table border="1">
+    <tr>
+      <th rowspan="2">Schedule</th>
+      <td>Monday</td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+    </tr>
+  </table>
+
+  <table border="1">
+    <caption>Class List</caption>
+    <tr>
+      <th>Name</th>
+    </tr>
+  </table>
+
+  <form>
+    First name: <input type="text" name="firstname"><br>
+    Last name: <input type="text" name="lastname">
+  </form>
+
+   <form>
+    Username: <input type="text" name="username"><br>
+    Password: <input type="password" name="psw">
+  </form>
+
+  <form action="action_page.php">
+    First name: <input type="text" name="firstname"><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <form>
+    <input type="radio" name="gender" value="male"> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="radio" name="gender" value="other"> Other
+  </form>
+
+  <form>
+    <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+    <input type="checkbox" name="vehicle2" value="Car"> I have a car
+  </form>
+
+   <form>
+    Quantity:
+    <input type="number" name="quantity" min="1" max="5">
+    <input type="submit">
+  </form>
+
+  <form>
+    Birthday: <input type="date" name="bday"><br>
+    Favorite color: <input type="color" name="favcolor"><br>
+    Email: <input type="email" name="email"><br>
+    Website: <input type="url" name="homepage">
+  </form>
+
+  <h3>#12 Placeholder and Required</h3>
+  <form>
+    Username:
+    <input type="text" name="username" placeholder="Enter username" required>
+    <input type="submit" value="Submit">
+  </form>
+
+  <h3>#13 Autofocus and Autocomplete</h3>
+  <form autocomplete="on">
+    First name:
+    <input type="text" name="fname" autofocus>
+    <input type="submit">
+  </form>
+
+  <h3>#14 Fieldset and Legend</h3>
+  <form>
+    <fieldset>
+      <legend>Personal Information</legend>
+      Name: <input type="text" name="name"><br>
+      Email: <input type="email" name="email">
+    </fieldset>
+  </form>
+
+  <h3>#15 Multiple and Pattern</h3>
+  <form>
+    Email:
+    <input type="email" name="email" multiple><br>
+    Code:
+    <input type="text" name="code" pattern="[A-Za-z]{3}">
+  </form>
+
+  <h2>Part 4 - Audio and Video</h2>
+
+  <h3>#16 Audio MP3</h3>
+  <audio controls>
+    <source src="audio.mp3" type="audio/mpeg">
+  </audio>
+
+  <h3>#17 Audio OGG</h3>
+  <audio controls loop>
+    <source src="audio.ogg" type="audio/ogg">
+  </audio>
+
+  <h3>#18 Video MP4</h3>
+  <video width="320" height="240" controls>
+    <source src="movie.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <h3>#19 Video OGG</h3>
+  <video width="320" height="240" controls>
+    <source src="movie.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+  </video>
+
+
+</body>
+</html>
